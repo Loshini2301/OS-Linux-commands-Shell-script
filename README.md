@@ -1,7 +1,6 @@
-# 1.OS-Linux-commands-Shell-scripting
-Operating systems Lab exercise
-# Linux commands-Shell scripting
+# Ex no 1 Linux commands-Shell scripting
 Linux commands-Shell scripting
+### Date:
 ### NAME   : Loshini.G 
 ### REF NO : 212223220051
 ### DEP    : IT
