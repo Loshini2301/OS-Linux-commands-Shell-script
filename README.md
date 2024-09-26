@@ -5,10 +5,10 @@ Linux commands-Shell scripting
 ### REF NO : 212223220051
 ### DEP    : IT
 
-# AIM:
+## AIM:
 To practice Linux Commands and Shell Scripting
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 
 ### Step 1:
 
@@ -22,7 +22,7 @@ Execute the following commands
 
 Testing the commands for the desired output. 
 
-# COMMANDS:
+## COMMANDS:
 ### Create the following files file1, file2 as follows:
 cat > file1
 ```
@@ -51,7 +51,7 @@ cat < file2
 ![image](https://github.com/user-attachments/assets/2e519014-2a19-4a80-a4fa-01f0a5d2ce85)
 
 
-# Comparing Files
+## Comparing Files
 cmp file1 file2
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/17063e6e-c5da-458b-92a7-13ff9998daeb)
@@ -502,7 +502,7 @@ echo $?
 ![image](https://github.com/user-attachments/assets/e5b8b012-d83b-4f87-899d-e0191204be26)
 
  
-# mis-using string comparisons
+## mis-using string comparisons
 
 cat < strcomp.sh 
 ```bash
@@ -541,7 +541,7 @@ chmod 755 strcomp.sh
 ![image](https://github.com/user-attachments/assets/7c1e85d6-7604-45f7-b571-a84c53f64e7f)
 
 
-# check file ownership
+## check file ownership
 cat < psswdperm.sh 
 ```bash
 \#!/bin/bash
@@ -568,7 +568,7 @@ fi
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/692ca416-ad6a-4f9a-b381-e5cd2c1f86ae)
 
-# check if with file location
+## check if with file location
 cat>ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -617,7 +617,7 @@ fi
 
 
 
-# using numeric test comparisons
+## using numeric test comparisons
 cat > iftest.sh 
 ```bash
 \#!/bin/bash
@@ -660,7 +660,7 @@ $ ./iftest.sh
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/88d8aebb-d32a-4987-8426-a413022efbb7)
 
-# check if a file
+## check if a file
 cat > ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -710,7 +710,7 @@ $ ./ifnested.sh
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/d510b40b-1461-4b10-ba36-0ad953c1e922)
 
-# looking for a possible value using elif
+## looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
 \#!/bin/bash
@@ -740,7 +740,7 @@ $ ./elifcheck.sh
 ![image](https://github.com/user-attachments/assets/603e8764-d92e-4264-b9a7-0ad9c297ed88)
 
 
-# testing compound comparisons
+## testing compound comparisons
 cat> ifcompound.sh 
 ```bash
 \#!/bin/bash
@@ -756,7 +756,7 @@ $ ./ifcompound.sh
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/ac9556b9-5b7b-4419-9000-511e33393da2)
 
-# using the case command
+## using the case command
 cat >casecheck.sh 
 ```bash
 case $USER in
@@ -1167,5 +1167,5 @@ fi
 ![image](https://github.com/user-attachments/assets/715391d3-abad-4f7b-905f-e2b063b2bca0)
 
 
-# RESULT:
+## RESULT:
 The Commands are executed successfully.
